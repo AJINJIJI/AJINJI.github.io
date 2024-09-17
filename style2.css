@@ -145,10 +145,10 @@ footer p {
 }
 
 /* For screens with a resolution of 1080x2340 at 35% */
-@media only screen and (min-width: 378px) and (min-height: 819px) {
+@media only screen and (min-width: 1080px) and (min-height: 2340px) {
   /* Your styles here */
   .container {
-    max-width: 90%;
+    max-width: 35%;
   }
   .hero {
     padding-top: 20rem;
@@ -169,3 +169,4 @@ footer p {
   margin: 20px auto;
   display: block;
 }
+
