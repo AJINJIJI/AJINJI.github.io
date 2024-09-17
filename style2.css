@@ -67,11 +67,19 @@ nav a {
 }
 
 .hero .discord-btn {
-  background-color: #2224bbdc; /* Discord blue color */
+  background-color: #2733bbdc; /* Discord blue color */
+}
+
+.hero .discord-btn:hover {
+  background-color: #041dfc; /* Discord blue hover color */
 }
 
 .hero .instagram-btn {
-  background-color: #2224bbdc; /* YouTube red color */
+  background-color: #2733bbdc; /* Instagram pink color */
+}
+
+.hero .instagram-btn:hover {
+  background-color: #041dfc; /* Instagram pink hover color */
 }
 
 .hero .btn i {
@@ -91,12 +99,20 @@ nav a {
 .btn {
   display: inline-block;
   padding: 1rem 2rem;
-  background-color: #bb2222dc;
+  background-color: #812222dc;
   color: #fff;
   text-decoration: none;
   border-radius: 5px;
   margin-right: 1rem;
 }
+.btn {
+  transition: background-color 0.3s ease-in-out;
+  }
+  
+  
+  .hero .btn:not(.discord-btn):not(.instagram-btn):hover {
+    background-color: #ff0000; /* YouTube red hover color */
+  }
 
 footer {
   position: fixed; /* or absolute, depending on your layout */
@@ -112,6 +128,8 @@ footer {
 footer p {
   margin: 0;
 }
+
+
 
 /* Media queries for responsiveness */
 
