@@ -8,36 +8,29 @@ body {
   background-size: cover;
   background-position: center;
   height: 100vh;
-  
-} 
+}
 
 .container {
-max-width: 1200px;
-margin: 0 auto;
-padding: 0rem 0rem 1rem;
-
-
-
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0rem 0rem 1rem;
 }
 
 header .container {
-display: flex;
-justify-content: space-between;
-align-items: center;
-
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
+
 header img {
-background-size: cover; /* Scale the background image to cover the entire element */
-background-position: center; /* Center the background image */
-padding: 0%; /* Remove any padding */
-width: 70px; /* Set the width of the image container */
-height: 70px; /* Set the height of the image container */
-display: block; /* Display the image container as a block element */
-background-color: transparent; /* Set background color to transparent */
-
-
+  background-size: cover; /* Scale the background image to cover the entire element */
+  background-position: center; /* Center the background image */
+  padding: 0%; /* Remove any padding */
+  width: 70px; /* Set the width of the image container */
+  height: 70px; /* Set the height of the image container */
+  display: block; /* Display the image container as a block element */
+  background-color: transparent; /* Set background color to transparent */
 }
-
 
 nav ul {
   list-style: none;
@@ -148,6 +141,27 @@ footer p {
   .card img {
       width: 80px;
       height: 80px;
+  }
+}
+
+/* For screens with a resolution of 1080x2340 at 35% */
+@media only screen and (min-width: 378px) and (min-height: 819px) {
+  /* Your styles here */
+  .container {
+    max-width: 90%;
+  }
+  .hero {
+    padding-top: 20rem;
+    padding-bottom: 10rem;
+  }
+  .hero h1 {
+    font-size: 2.5rem;
+  }
+  .hero p {
+    font-size: 1.1rem;
+  }
+  .btn {
+    padding: 0.8rem 1.5rem;
   }
 }
 
