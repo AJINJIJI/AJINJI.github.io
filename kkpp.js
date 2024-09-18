@@ -1,7 +1,7 @@
 //--- Discord ,Fivem,Instagram Button Start---//
 
 const discordBtn = document.getElementById('discord-btn');
-const playNowBtn = document.getElementById('play-now-btn');
+const playNowBtn = document.getElementById('youtube-btn');
 const instagramBtn = document.getElementById('instagram-btn');
 
 discordBtn.addEventListener('click', function() {
